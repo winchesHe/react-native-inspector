@@ -4,6 +4,8 @@
 - Babel 插件会在 development 环境为组件注入 `__inspectorSource` 属性，便于在调试器或自定义逻辑中定位到源码位置。
 - Metro 中间件集成了打开编辑器的能力（基于 launch-editor），通过 Dev Server 请求快速在本地编辑器中打开对应文件。
 
+https://github.com/user-attachments/assets/32b2c1e5-d798-4a72-b0c1-1c3cbd537131
+
 ## 使用
 
 ### babel.config.js
