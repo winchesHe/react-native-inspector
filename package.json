@@ -1,6 +1,6 @@
 {
   "name": "react-native-components-inspector",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "react native components inspector can used to click the component and open the code in the editor",
   "keywords": [
     "react-native",
@@ -15,10 +15,12 @@
   "license": "MIT",
   "author": "winches",
   "files": [
-    "src"
+    "src",
+    "dist"
   ],
-  "main": "./src/index.ts",
-  "module": "./src/index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": "./src/index.ts",
     "./components": "./src/components/index.ts",
